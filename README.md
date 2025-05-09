@@ -29,12 +29,7 @@ Note:
 The context object is not sent to the LLM. It is purely a local object that you can read from, write to and call methods on it.
 
 
-
-
-
-
-<code>
-
+```
 import asyncio
 from dataclasses import dataclass
 
@@ -66,12 +61,12 @@ async def main():
     print(result.final_output)  
     # The user John is 47 years old.
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
     asyncio.run(main())
- 
-
-</code>
+```
 
 
 
+
+#### OpenAI SDK Doc
 [for more detail](https://openai.github.io/openai-agents-python/context/)
