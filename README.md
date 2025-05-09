@@ -1,6 +1,6 @@
 # OpenAI_sdk_agent_context_manager
 
-[googleColab]("https://colab.research.google.com/drive/1p4UnK59zsC5NxnmsQ49lRi3atK5i6wzv?usp=sharing")
+[googleColab](https://colab.research.google.com/drive/1p4UnK59zsC5NxnmsQ49lRi3atK5i6wzv?usp=sharing)
 
 ## Context management
 
@@ -33,7 +33,7 @@ The context object is not sent to the LLM. It is purely a local object that you 
 
 
 
-```
+`
 
 import asyncio
 from dataclasses import dataclass
@@ -70,8 +70,8 @@ if __name__ == "__main__":
     asyncio.run(main())
 
 
-```
+`
 
 
-* more detail :
-[OpenAI/doc/context]("https://openai.github.io/openai-agents-python/context/")
+
+[for more detail](https://openai.github.io/openai-agents-python/context/)
