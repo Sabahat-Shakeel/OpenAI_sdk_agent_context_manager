@@ -29,7 +29,7 @@ Note:
 The context object is not sent to the LLM. It is purely a local object that you can read from, write to and call methods on it.
 
 
-```
+```python
 import asyncio
 from dataclasses import dataclass
 
